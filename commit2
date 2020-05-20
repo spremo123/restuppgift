@@ -1,0 +1,11 @@
+while loop == True:
+
+    print('[1] Visa alla loggar')
+    print('[2] Ny logg')
+    print('[3] Spara loggar till fil')
+    print('[4] Avsluta')
+    
+    try:
+        val = int(input('Val: '))
+    except:
+        val = 0
