@@ -1,0 +1,11 @@
+loop = True
+
+try:
+    f = open("logg.txt", "r")
+    f.close()
+except:
+    f = open("logg.txt", "w")
+    f.close()
+
+temp = []
+
